@@ -1,5 +1,5 @@
 VAR name = "trick"
-
+VAR fetchInt = 0
 ==play==
 
 what would you like to play?
@@ -11,14 +11,37 @@ what would you like to play?
 
 ==fetch==
 
-{~ You threw a ball for your dog to fetch. They caught it! | You threw a ball for your dog to fetch. They missed it...| You threw a ball for your dog to fetch. They forgot it! | You threw a ball for your dog to fetch. They swallowed it!}
+   ~fetchInt = RANDOM(1,4)
+{ fetchInt == 1:
 
+You threw a ball for your dog to fetch. They caught it! 
+# IMAGE: Images/caught.png
 # AUDIO: audio/Squeaky.wav
+}
 
-//# IMAGE: Images/caught.png
-//# IMAGE: Images/missed.png
-//# IMAGE: Images/forgot_The_Ball.png
-//# IMAGE: Images/Swallowed.png
+{ fetchInt == 2:
+
+You threw a ball for your dog to fetch. They missed it...
+# IMAGE: Images/missed.png
+# AUDIO: audio/Squeaky.wav
+}
+{ fetchInt == 3:
+
+You threw a ball for your dog to fetch. They forgot it!
+# IMAGE: Images/forgot_The_Ball.png
+# AUDIO: audio/Squeaky.wav
+}
+{ fetchInt == 4:
+
+You threw a ball for your dog to fetch. They swallowed it!
+# IMAGE: Images/Swallowed.png
+# AUDIO: audio/Squeaky.wav
+}
+
+
+
+
+
 
 +what to do next? ->whattodo
 

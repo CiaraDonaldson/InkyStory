@@ -13,11 +13,10 @@ Welcome to Pet Owner Simulator!
 # IMAGE: Images/Adopt.png
 +German Shepard -> whattodo
 //chihuahua
-//+Chihuahua ->
++Chihuahua -> whattodo
 
 ==whattodo==
 +play ->play
-
 +care ->care
 
 //# IMAGE: Images/IMG_0022.jpg
