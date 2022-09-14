@@ -11,10 +11,11 @@ Welcome to Pet Owner Simulator!
 ==choosepet==
 
 # IMAGE: Images/Adopt.png
-# IMAGE: Images/Adopt_C.png
+# IMAGE: Images/Adopt C.png
++Chihuahua -> whattodoc
 +German Shepard -> whattodo
 
-+Chihuahua -> whattodoc
+
 
 ==whattodo==
 +play ->play

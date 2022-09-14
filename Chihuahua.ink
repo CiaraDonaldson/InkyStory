@@ -12,36 +12,36 @@ How would you like to care for your dog?
 
 ==bathec==
 What a lovely bath you got all wet too.
-# IMAGE: Images/bathe_C.png
+# IMAGE: Images/bathe C.png
 # AUDIO: audio/Sad Bar.wav
 +what to do next? ->whattodoc
 ->END
 
 ==feedc==
 Your dog ate all the food!
-# IMAGE: Images/Feed_C.png
+# IMAGE: Images/Feed C.png
 +what to do next? ->whattodoc
 ->END
 ==waterc==
 Wow drank the water so fast it's all on the floor!
-# IMAGE: Images/water_C.png
+# IMAGE: Images/water C.png
 +what to do next? ->whattodoc
 ->END
 
 ==bathroomc==
 Your pup went potty!
-# IMAGE: Images/bathroom_C.png
+# IMAGE: Images/bathroom C.png
 +what to do next? ->whattodoc
 ->END
 
 ==walkc==
 What a nice day for a walk!
-# IMAGE: Images/Walks_C.png
+# IMAGE: Images/Walks C.png
 +what to do next? ->whattodoc
 ->END
 ==brushc==
 Oof thats a lotta hair..
-# IMAGE: Images/Brush_C.png
+# IMAGE: Images/Brush C.png
 
 +what to do next? ->whattodoc
 -> END
@@ -61,7 +61,7 @@ what would you like to play?
 { playInt == 1:
 
 You threw a ball for your dog to fetch. They caught it! 
-# IMAGE: Images/caught_C.png
+# IMAGE: Images/caught C.png
 # AUDIO: audio/Squeaky.wav
 +what to do next? ->whattodoc
 
@@ -70,7 +70,7 @@ You threw a ball for your dog to fetch. They caught it!
 { playInt == 2:
 
 You threw a ball for your dog to fetch. They missed it...
-# IMAGE: Images/missed_C.png
+# IMAGE: Images/missed C.png
 # AUDIO: audio/Squeaky.wav
 +what to do next? ->whattodoc
 
@@ -78,7 +78,7 @@ You threw a ball for your dog to fetch. They missed it...
 { playInt == 3:
 
 You threw a ball for your dog to fetch. They forgot it!
-# IMAGE: Images/forgot_The_Ball_C.png
+# IMAGE: Images/forgot_The_Ball C.png
 # AUDIO: audio/Squeaky.wav
 +what to do next? ->whattodoc
 
@@ -86,7 +86,7 @@ You threw a ball for your dog to fetch. They forgot it!
 { playInt == 4:
 
 You threw a ball for your dog to fetch. They swallowed it!
-# IMAGE: Images/Swallowed_C.png
+# IMAGE: Images/Swallowed C.png
 # AUDIO: audio/Squeaky.wav
 +what to do next? ->whattodoc
 
@@ -122,14 +122,14 @@ You threw a frisbee at your dog. They missed it...
 ~playInt = RANDOM(1,2)
 { playInt == 2:
 You played Tug of War with your dog. You won!
-# IMAGE: Images/tug_of_war_win_C.png
+# IMAGE: Images/tug_of_war_win C.png
 
 # AUDIO: audio/Angry Bark 2.wav
 +what to do next? ->whattodoc
 }
 { playInt == 2:
 You played Tug of War with your dog. You lost!
-# IMAGE: Images/tug_of_War_Lose_C.png
+# IMAGE: Images/tug_of_War_Lose C.png
 
 # AUDIO: audio/Angry Bark 2.wav
 +what to do next? ->whattodoc
@@ -143,32 +143,32 @@ You played Tug of War with your dog. You lost!
 
 { playInt == 1:
 Your dog played dead!
-# IMAGE: Images/play_dead_C.png
+# IMAGE: Images/play_dead C.png
 # AUDIO: audio/Bark 2.wav
 +what to do next? ->whattodoc
 }
 
 { playInt == 2:
 Your dog rolled over!
-# IMAGE: Images/roll_over_C.png
+# IMAGE: Images/roll_over C.png
 # AUDIO: audio/Bark 2.wav
 +what to do next? ->whattodoc
 }
 { playInt == 3:
 Your dog gave you a handshake!
-# IMAGE: Images/shake_C.png
+# IMAGE: Images/shake C.png
 # AUDIO: audio/Bark 2.wav
 +what to do next? ->whattodoc
 }
 { playInt == 4:
 You dog spoke to you!
-# IMAGE: Images/speak_C.png
+# IMAGE: Images/speak C.png
 # AUDIO: audio/Bark 2.wav
 +what to do next? ->whattodoc
 }
 { playInt == 5:
 Your dog gave you a kiss!
-# IMAGE: Images/kiss_C.png
+# IMAGE: Images/kiss C.png
 # AUDIO: audio/Bark 2.wav
 +what to do next? ->whattodoc
 }
