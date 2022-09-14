@@ -1,5 +1,5 @@
 VAR name = "trick"
-VAR fetchInt = 0
+VAR playInt = 0
 ==play==
 
 what would you like to play?
@@ -11,31 +11,39 @@ what would you like to play?
 
 ==fetch==
 
-   ~fetchInt = RANDOM(1,4)
-{ fetchInt == 1:
+   ~playInt = RANDOM(1,4)
+{ playInt == 1:
 
 You threw a ball for your dog to fetch. They caught it! 
 # IMAGE: Images/caught.png
 # AUDIO: audio/Squeaky.wav
++what to do next? ->whattodo
+
 }
 
-{ fetchInt == 2:
+{ playInt == 2:
 
 You threw a ball for your dog to fetch. They missed it...
 # IMAGE: Images/missed.png
 # AUDIO: audio/Squeaky.wav
++what to do next? ->whattodo
+
 }
-{ fetchInt == 3:
+{ playInt == 3:
 
 You threw a ball for your dog to fetch. They forgot it!
 # IMAGE: Images/forgot_The_Ball.png
 # AUDIO: audio/Squeaky.wav
++what to do next? ->whattodo
+
 }
-{ fetchInt == 4:
+{ playInt == 4:
 
 You threw a ball for your dog to fetch. They swallowed it!
 # IMAGE: Images/Swallowed.png
 # AUDIO: audio/Squeaky.wav
++what to do next? ->whattodo
+
 }
 
 
@@ -43,21 +51,28 @@ You threw a ball for your dog to fetch. They swallowed it!
 
 
 
-+what to do next? ->whattodo
 
 -> END
 ==frisbee==
-
-{~ You threw a frisbee at your dog. They caught it!| You threw a frisbee at your dog. They missed it...}
-//# IMAGE: Images/Frisbee_caught.png
-//# IMAGE: Images/frisbee_missed.png
-
+~playInt = RANDOM(1,2)
+{ playInt == 1:
+You threw a frisbee at your dog. They caught it!
+# IMAGE: Images/Frisbee_caught.png
 # AUDIO: audio/Play.mp3
 +what to do next? ->whattodo
+}
+{ playInt == 2:
+You threw a frisbee at your dog. They missed it...
+# IMAGE: Images/frisbee_missed.png
+# AUDIO: audio/Play.mp3
++what to do next? ->whattodo
+}
+
+
 
 -> END
 ==tugofwar==
-
+~playInt = RANDOM(1,2)
 {~ You played Tug of War with your dog. You won!| You played Tug of War with your dog. You lost! }
 //# IMAGE: Images/tug_of_War_Lose.png
 
@@ -65,7 +80,7 @@ You threw a ball for your dog to fetch. They swallowed it!
 +what to do next? ->whattodo
 -> END
 ==tricks==
-
+~playInt = RANDOM(1,5)
 {~ Your dog played dead! | Your dog rolled over! | Your dog gave you a handshake! | You dog spoke to you! | Your dog gave you a kiss!}
 # AUDIO: audio/Bark 2.wav
 //# IMAGE: Images/speak.png
