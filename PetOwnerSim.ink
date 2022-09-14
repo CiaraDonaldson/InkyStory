@@ -9,33 +9,33 @@ Welcome to Pet Owner Simulator!
 ==choosepet==
 +Continue -> whattodo
 //germanshepard
+
 # IMAGE: Images/Adopt.png
++German Shepard -> whattodo
 //chihuahua
+//+Chihuahua ->
 
 ==whattodo==
 +play ->play
 
-# IMAGE: Images/IMG_0022.jpg
-# IMAGE: Images/IMG_0023.jpg
-# IMAGE: Images/IMG_0024.jpg
-# IMAGE: Images/IMG_0025.jpg
-==care==
-//Once upon a time...
-# AUDIO: audio/Bark 2.wav
-# AUDIO: audio/Play.mp3
-# AUDIO: audio/Dog bark.wav
-# AUDIO: audio/Sad Bar.wav
-# AUDIO: audio/Whimper.wav
-# AUDIO: audio/Angry Bark 2.wav
-# AUDIO: audio/Squeaky.wav
-# AUDIO: audio/Tired dog.wav
-# AUDIO: audio/Whimper.wav
-# AUDIO: audio/whining.mp3
-# AUDIO: audio/ Barking Dog 3.wav
- //* There were two choices.
-// * There were four lines of content.
++care ->care
 
-//- They lived happily ever after.
- 
+//# IMAGE: Images/IMG_0022.jpg
+//# IMAGE: Images/IMG_0023.jpg
+//# IMAGE: Images/IMG_0024.jpg
+//# IMAGE: Images/IMG_0025.jpg
+
+
+
+# AUDIO: audio/Dog bark.wav
+
+//# AUDIO: audio/Whimper.wav
+
+
+//# AUDIO: audio/Tired dog.wav
+//# AUDIO: audio/Whimper.wav
+//# AUDIO: audio/whining.mp3
+//# AUDIO: audio/ Barking Dog 3.wav
+
     
 -> END
