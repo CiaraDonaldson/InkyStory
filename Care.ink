@@ -11,25 +11,25 @@ How would you like to care for your dog?
 
 ==bathe==
 What a lovely bath you got all wet too.
-# IMAGE: Images/Untitled_Artwork.png
+# IMAGE: Images/bathe.png
 # AUDIO: audio/Sad Bar.wav
 +what to do next? ->whattodo
 ->END
 
 ==feed==
-
+Your dog ate all the food!
 # IMAGE: Images/Feed.png
 +what to do next? ->whattodo
 ->END
 ==water==
-Wow drank the water so fast it's all on the floor
-# IMAGE: Images/
+Wow drank the water so fast it's all on the floor!
+# IMAGE: Images/water.png
 +what to do next? ->whattodo
 ->END
 
 ==bathroom==
 Your pup went potty!
-# IMAGE: Images/
+# IMAGE: Images/bathroom.png
 +what to do next? ->whattodo
 ->END
 
