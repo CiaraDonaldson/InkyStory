@@ -1,38 +1,39 @@
 VAR name = "trick"
 
 ==play==
+
 what would you like to play?
 
-+fetch? ->fetch
-+frisbee? ->frisbee
-+tugofwar? ->tugofwar
-+tricks? ->tricks
++Fetch ->fetch
++Frisbee ->frisbee
++Tug Of War ->tugofwar
++Tricks ->tricks
 
 ==fetch==
 
-{~ they caught it | they missed it| forgot | swallowed it}
-# IMAGE:caught.png
-# IMAGE:missed.png
-# IMAGE:forgot_The_Ball.png
-# IMAGE:Swallowed.png
+{~ You threw a ball for your dog to fetch. They caught it! | You threw a ball for your dog to fetch. They missed it...| You threw a ball for your dog to fetch. They forgot it! | You threw a ball for your dog to fetch. They swallowed it!}
+# IMAGE: Images/caught.png
+# IMAGE: Images/missed.png
+# IMAGE: Images/forgot_The_Ball.png
+# IMAGE: Images/Swallowed.png
 
 
 -> END
 ==frisbee==
 
-{~ they caught it| they missed it}
-# IMAGE:Frisbee_caught.png
-# IMAGE:frisbee_missed.png
+{~ You threw a frisbee at your dog. They caught it!| You threw a frisbee at your dog. They missed it...}
+# IMAGE: Images/Frisbee_caught.png
+# IMAGE: Images/frisbee_missed.png
 
 
 -> END
 ==tugofwar==
 
-{~ you won| you lost}
+{~ You played Tug of War with your dog. You won!| You played Tug of War with your dog. You lost! }
 
 -> END
 ==tricks==
 
-{~ play dead | rolled over | handshake | speak | kiss}
+{~ Your dog played dead! | Your dog rolled over! | Your dog gave you a handshake! | You dog spoke to you! | Your dog gave you a kiss!}
 
 -> END

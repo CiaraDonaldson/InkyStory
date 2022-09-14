@@ -2,14 +2,14 @@ INCLUDE Care.ink
 INCLUDE Play.ink
 
 //choose your pet
-what pet do you want.
+Welcome to Pet Owner Simulator!
 
 ->choosepet
 
 ==choosepet==
-+choose -> whattodo
++Continue -> whattodo
 //germanshepard
-# IMAGE: Adopt.png
+# IMAGE: Images/Adopt.png
 //chihuahua
 
 ==whattodo==
