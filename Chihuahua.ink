@@ -15,7 +15,7 @@ What a lovely bath you got all wet too.
 # IMAGE: Images/bathe C.png
 # AUDIO: AUDIO/Sad Bar.wav
 ~Stamina += 1
-+what to do next? ->whattodoc
++Someone looks like they enjoyed their spa day. What to do next? ->whattodoc
 ->END
 
 ==feedc==
@@ -23,14 +23,14 @@ Your dog ate all the food!
 # IMAGE: Images/Feed C.png
 # AUDIO:AUDIO/245039__kwahmah-02__dog-eating.wav
 ~Stamina += 1
-+what to do next? ->whattodoc
++Someone needs to watch their carbs. What to do next? ->whattodoc
 ->END
 ==waterc==
 Wow drank the water so fast it's all on the floor!
 # IMAGE: Images/water C.png
 # AUDIO:AUDIO/433709__dersuperanton__dog-drinking-water.wav
 ~Stamina += 1
-+what to do next? ->whattodoc
++How can something so tiny make this big of a mess? What to do next? ->whattodoc
 ->END
 
 ==bathroomc==
@@ -38,7 +38,7 @@ Your pup went potty!
 # IMAGE: Images/bathroom C.png
 # AUDIO:AUDIO/274448__lorenzgillner__toilet-flushing.wav
 ~Stamina += 1
-+what to do next? ->whattodoc
++He's feeling refreshed already! what to do next? ->whattodoc
 ->END
 
 ==walkc==
@@ -46,14 +46,14 @@ What a nice day for a walk!
 # IMAGE: Images/Walks C.png
 # AUDIO:AUDIO/461559__slv1__dog-leash.wav
 ~Stamina += 1
-+what to do next? ->whattodoc
++So much energy contained in that little body! What to do next? ->whattodoc
 ->END
 ==brushc==
 Oof thats a lotta hair..
 # IMAGE: Images/Brush C.png
 # AUDIO:AUDIO/389452__lzmraul__brushing.wav
 ~Stamina += 1
-+what to do next? ->whattodoc
++Wait, who was the one brushing who again? What to do next? ->whattodoc
 -> END
 
 ==playc==
@@ -122,7 +122,7 @@ You threw a frisbee at your dog. They caught it!
 
 You threw a frisbee at your dog. They missed it...
 # IMAGE: Images/frisbee_missed C.png
-# AUDIO: AUDIO/Angry Bark.wav
+# AUDIO: AUDIO/Chihuahua Bark.wav
 
 ~Stamina -= 1
 
