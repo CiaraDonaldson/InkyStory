@@ -5,17 +5,17 @@ You lost one Stamina bar, would you like to play or care?
 +[care] ->carec
 }
 { Stamina == 2:
-You lost two Stamina bar, would you like to play or care?
+You lost two Stamina bars, would you like to play or care?
 +[play] ->playc
 +[care] ->carec
 }
 { Stamina == 3:
-You lost three Stamina bar, would you like to play or care?
+You lost three Stamina bars, would you like to play or care?
 +[play] ->playc
 +[care] ->carec
 }
 { Stamina == 4:
-You have lost four Stamina, would you like to play or care?
+You lost four Stamina bars, would you like to play or care?
 +[play] ->playc
 +[care] ->carec
 }
@@ -26,22 +26,22 @@ Oh NO! Your dog has passed out!
 
 ==gain==
 { Stamina == 1:
-You gain one Stamina bar, would you like to play or care?
+You gained one Stamina bar, would you like to play or care?
 +[play] ->play
 +[care] ->care
 }
 { Stamina == 2:
-You gain two Stamina bar, would you like to play or care?
+You gained two Stamina bars, would you like to play or care?
 +[play] ->play
 +[care] ->care
 }
 { Stamina == 3:
-You gain three Stamina bar, would you like to play or care?
+You gained three Stamina bars, would you like to play or care?
 +[play] ->play
 +[care] ->care
 }
 { Stamina == 4:
-You have gain four Stamina, would you like to play or care?
+You gained four Stamina bars, would you like to play or care?
 +[play] ->play
 +[care] ->care
 }
