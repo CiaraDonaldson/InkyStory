@@ -2,7 +2,7 @@ VAR name = "trick"
 VAR playInt = 0
 ==play==
 
-what would you like to play?
+What would you like to play?
 
 +[Fetch] ->fetch
 +[Frisbee] ->frisbee
@@ -117,7 +117,7 @@ Your dog gave you a handshake!
 
 }
 { playInt == 4:
-You dog spoke to you!
+Your dog spoke to you!
 # IMAGE: Images/speak.png
 # AUDIO: audio/Bark 2.wav
 //Stamina -= 1
