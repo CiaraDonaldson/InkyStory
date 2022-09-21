@@ -10,16 +10,16 @@ How would you like to care for your dog?
 ->END
 
 ==bathe==
-What a lovely bath and you got all wet too!
+What a lovely bath! You got all wet too!
 # IMAGE: Images/bathe.png
 # AUDIO: audio/Sad Bark.wav
 ~Stamina += 1
-+You're starting to wonder if you got more wet than the dog? what should you two do next? ->whattodo
++You're starting to wonder if you got more wet than the dog? What should you two do next? ->whattodo
 
 ->END
 
 ==feed==
-Your dog ate all the food!
+Your dog ate all of the food!
 # IMAGE: Images/Feed.png
 # AUDIO:AUDIO/245039__kwahmah-02__dog-eating.wav
 ~Stamina += 1
@@ -27,7 +27,7 @@ Your dog ate all the food!
 
 ->END
 ==water==
-Wow drank the water so fast it's all on the floor!
+Wow, they drank the water so fast it's all over the floor!
 # IMAGE: Images/water.png
 # AUDIO:AUDIO/433709__dersuperanton__dog-drinking-water.wav
 ~Stamina += 1
@@ -50,7 +50,7 @@ What a nice day for a walk!
 +Or it would be if someone would stop chasing squirrels....what to do next? ->whattodoc
 ->END
 ==brush==
-Oof thats a lotta hair..
+Oof, that's a lotta hair..
 # IMAGE: Images/Brush.png
 # AUDIO:AUDIO/389452__lzmraul__brushing.wav
 ~Stamina += 1
