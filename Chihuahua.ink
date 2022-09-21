@@ -11,7 +11,7 @@ How would you like to care for your dog?
 ->END
 
 ==bathec==
-What a lovely bath you got all wet too.
+What a lovely bath! You got all wet too!
 # IMAGE: Images/bathe C.png
 # AUDIO: AUDIO/Sad Bar.wav
 ~Stamina += 1
@@ -26,7 +26,7 @@ Your dog ate all the food!
 +Someone needs to watch their carbs. What to do next? ->whattodoc
 ->END
 ==waterc==
-Wow drank the water so fast it's all on the floor!
+Wow, they drank the water so fast it's all over the floor!
 # IMAGE: Images/water C.png
 # AUDIO:AUDIO/433709__dersuperanton__dog-drinking-water.wav
 ~Stamina += 1
@@ -38,7 +38,7 @@ Your pup went potty!
 # IMAGE: Images/bathroom C.png
 # AUDIO:AUDIO/274448__lorenzgillner__toilet-flushing.wav
 ~Stamina += 1
-+He's feeling refreshed already! what to do next? ->whattodoc
++He's feeling refreshed already! What to do next? ->whattodoc
 ->END
 
 ==walkc==
@@ -49,7 +49,7 @@ What a nice day for a walk!
 +So much energy contained in that little body! What to do next? ->whattodoc
 ->END
 ==brushc==
-Oof thats a lotta hair..
+Oof, that's a lotta hair..
 # IMAGE: Images/Brush C.png
 # AUDIO:AUDIO/389452__lzmraul__brushing.wav
 ~Stamina += 1
@@ -182,7 +182,7 @@ Your dog gave you a handshake!
 
 }
 { playInt == 4:
-You dog spoke to you!
+Your dog spoke to you!
 # IMAGE: Images/speak C.png
 # AUDIO: AUDIO/Bark 2.wav
 ~Stamina -= 1
